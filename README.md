@@ -12,3 +12,7 @@
  
 ## To Run:
     python3 anvio_script.py
+    
+## References
+Eren AM, Esen ÖC, Quince C, Vineis JH, Morrison HG, Sogin ML, Delmont TO. 2015. Anvi’o: an advanced analysis and visualization platform for ‘omics data. PeerJ 3:e1319 https://doi.org/10.7717/peerj.1319
+Delmont TO, Eren AM. 2018. Linking pangenomes and metagenomes: the Prochlorococcus metapangenome. PeerJ 6:e4320 https://doi.org/10.7717/peerj.4320
