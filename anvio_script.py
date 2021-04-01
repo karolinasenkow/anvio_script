@@ -37,12 +37,6 @@ os.system('anvi-gen-genomes-storage -e external-genomes.txt -o species-GENOMES.d
 # generate an anvi’o pan database
 os.system('anvi-pan-genome -g species-GENOMES.db -n KLEBSIELLA --use-ncbi-blast --mcl-inflation 10 -T 5')
 
-# calculate % ANI
-os.system('anvi-compute-genome-similarity --external-genomes external-genomes.txt \
-                               --program pyANI \
-                               --output-dir ANI \
-                               --num-threads 6 \
-                               --pan-db KLEBSIELLA/KLEBSIELLA-PAN.db')
 
 # visualize pangenome image
 os.system('anvi-display-pan -p KLEBSIELLA/KLEBSIELLA-PAN.db -g species-GENOMES.db')
